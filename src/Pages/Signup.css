@@ -1,0 +1,288 @@
+.signup-bg {
+    background: linear-gradient(135deg, #dcc3df, #e6b5bb);
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .signup-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .form-control {
+    border: 2px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .form-control:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 8px rgba(108, 99, 255, 0.5);
+  }
+  
+  .btn-primary {
+    background-color: #6c63ff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5548c8;
+  }
+  
+  .btn-outline-secondary {
+    border-color: #6c63ff;
+    color: #6c63ff;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #f0f0f5;
+  }
+
+  /* App.css */
+
+/* Make sure the container fills the screen */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8; /* Light background for contrast */
+  }
+  
+  /* The login box */
+  .login-box {
+    width: 100%;
+    max-width: 420px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .login-box:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Add some margin and adjust the title */
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* For form fields */
+  input, .form-control {
+    border-radius: 50px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus, .form-control:focus {
+    border-color: #5e72e4;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5e72e4;
+    color: white;
+  }
+  
+  /* Links */
+  a {
+    color: #5e72e4;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error message */
+  .text-danger {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Toastify position */
+  .Toastify__toast-container {
+    z-index: 9999;
+  }
+  
+  /* App.css */
+
+/* Make sure the container fills the screen */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8; /* Light background for contrast */
+  }
+  
+  /* The login box */
+  .login-box {
+    width: 100%;
+    max-width: 420px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .login-box:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Add some margin and adjust the title */
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* For form fields */
+  input, .form-control {
+    border-radius: 50px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus, .form-control:focus {
+    border-color: #5e72e4;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5e72e4;
+    color: white;
+  }
+  
+  /* Links */
+  a {
+    color: #5e72e4;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error message */
+  .text-danger {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Toastify position */
+  .Toastify__toast-container {
+    z-index: 9999;
+  }
+
+  /* App.css */
+
+/* Forgot Password container */
+.forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f9fc;
+  }
+  
+  /* Forgot Password Box */
+  .forgot-password-box {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .forgot-password-box:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Title */
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form fields */
+  input, .form-control {
+    border-radius: 50px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus, .form-control:focus {
+    border-color: #5e72e4;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5e72e4;
+    color: white;
+  }
+  
+  /* Links */
+  a {
+    color: #5e72e4;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error message */
+  .text-danger {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Toastify position */
+  .Toastify__toast-container {
+    z-index: 9999;
+  }
+  
+  
+  
